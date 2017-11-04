@@ -1,26 +1,39 @@
+/* tablets and smartphones */
 .front-link {
-  	background: transparent;
-  	border-radius: 1vh;
-	color: var(--my-yellow);
-	display: inline-block;
-	font: sans-serif;
-	font-family: 'Permanent Marker', cursive;
-	font-style: none;
-	text-decoration: none;
-	width: 100%;
-	max-width: 40vh;
-	min-height: 4vh;
-	position: relative;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
+	width: 50%;
 }
 
-.front-link:hover {
-	background-color: var(--my-white);
+
+/* laptops and larger */
+@media only screen and (min-width: 600px) {
+  .front-link {
+    background: transparent;
     border-radius: 1vh;
-	color: var(--my-black);
+  	color: var(--my-yellow);
+  	display: inline-block;
+  	font: sans-serif;
+  	font-family: 'Permanent Marker', cursive;
+  	font-style: none;
+  	text-decoration: none;
+  	width: 100%;
+  	max-width: 40vh;
+  	min-height: 4vh;
+  	position: relative;
+  	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  }
+
+  .front-link:hover {
+  	background-color: var(--my-white);
+      border-radius: 1vh;
+  	color: var(--my-black);
+  }
+
 }
+
+
+
 
 

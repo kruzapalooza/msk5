@@ -59,11 +59,22 @@ body {
 
 /* OPTION 2: FIXED SIDEBARS */ 
 
+/* tablets and smartphones */
 .primary-sidebar {
   background: var(--my-black);
   position: fixed;
-  width: 10%;
+  width: 2%;
   left: 0;
+}
+
+/* laptops and larger*/
+@media only screen and (min-width: 600px) {
+  .primary-sidebar {
+    background: var(--my-black);
+    position: fixed;
+    width: 10%;
+    left: 0;
+  }
 }
 
 .secondary-sidebar {
