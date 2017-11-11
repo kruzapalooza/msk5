@@ -1,15 +1,25 @@
+/* SMALLER VIEWPORTS */
 .social-link {
-  	display: flex;
-  	justify-content: center;
+	display: flex;
+	max-width: 100%;
+	position: relative;
+  justify-content: center;
+}
+
+.social-link a {
+	display: inline;
+	max-width: 100%;
+	position: relative;
 }
 
 .social-link img {
+	position: relative;
+	max-width: 100%;
 	padding: 0.5vh;
-	display: block;
+	display: inline-block;
 	border-radius: 50%;
 	opacity: 0.7;
-	width: 5vh;
-	max-width: 100%;
+	max-width: 8vh;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
@@ -18,4 +28,36 @@
 
 .social-link img:hover {
 	opacity: 1;
+}
+
+/* LARGER VIEWPORTS */
+@media (min-width: 680px) {
+  .social-link {
+  	display: flex;
+  	max-width: 100%;
+  	justify-content: center;
+  }
+
+  .social-link a {
+  	display: inline-block;
+  	max-width: 100%;
+  }
+
+  .social-link img {
+  	max-width: 100%;
+  	padding: 0.5vh;
+  	display: inline-block;
+  	border-radius: 50%;
+  	opacity: 0.7;
+  	max-width: 8vh;
+  	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  }
+
+  .social-link img:hover {
+  	opacity: 1;
+  }
+
 }
