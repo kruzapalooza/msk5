@@ -21,7 +21,7 @@ app.set('views', 'app/views');
 app.locals.siteTitle = 'Marc S. Kruza';
 
 app.use(express.static('app/public'));
-app.use(express.static('app/blog'));
+//app.use(express.static('app/blog'));
 app.use(require('./routes/index'));
 // app.use(require('./routes/novel'));
 app.use(require('./routes/article'));
