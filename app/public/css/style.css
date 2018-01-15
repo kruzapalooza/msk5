@@ -38,9 +38,8 @@ body {
   background: var(--my-black);
   color: var(--my-blue);
   flex: 0 0 auto;
-  font-size: 8vh;
-  font: sans-serif;
-  font-family: Orbitron;
+  font-size: 6vh;
+  font-family: Arial;
   height: auto;
 }
 
@@ -51,7 +50,6 @@ body {
 
 .content {
   flex: 1 1 auto;
- /* min-width: 400px;*/
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.9)), to(transparent));
   background-color: var(--my-sepia);
   margin-left: 2%;
@@ -59,8 +57,8 @@ body {
 }
 
 .content p.paragraph-text {
-  color: var(--my-blue);
-  font-family: 'Audiowide', cursive;
+  color: var(--my-gray);
+  font-family: 'Helvetica', cursive;
   padding-bottom: 1vh;
 }
 
@@ -91,7 +89,7 @@ body {
     flex: 0 0 auto;
     font-size: 8vh;
     font: sans-serif;
-    font-family: Orbitron;
+    font-family: Helvetica;
     height: auto;
   }
 
@@ -99,7 +97,6 @@ body {
     background: var(--my-var);
     flex: 0 0 auto;
   }
-
 
   .primary-sidebar {
     background: var(--my-black);
@@ -117,7 +114,6 @@ body {
 
   .content {
     flex: 1 1 auto;
-    /*min-width: 400px;*/
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.9)), to(transparent));
     background-color: var(--my-sepia);
     margin-left: 10%;
@@ -125,8 +121,8 @@ body {
   }
 
   .content p.paragraph-text {
-    color: var(--my-blue);
-    font-family: 'Audiowide', cursive;
+    color: var(--my-gray);
+    font-family: 'Helvetica', cursive;
     padding-bottom: 1vh;
   }
 
