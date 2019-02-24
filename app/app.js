@@ -1,1 +1,1 @@
-./app.js.devel
+app.js.devel
