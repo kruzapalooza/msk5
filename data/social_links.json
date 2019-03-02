@@ -1,0 +1,29 @@
+{
+  "social_links": [
+    {
+      "url" : "https://twitter.com/mkruza",
+      "shortname": "Twitter",
+      "imagefile" : "icon_twitter.jpg"
+    },
+    {
+      "url" : "https://www.facebook.com/mkruza",
+      "shortname": "Facebook",
+      "imagefile" : "icon_facebook.png"
+    },
+    {
+      "url" : "https://plus.google.com/b/107140843890666097689/107140843890666097689",
+      "shortname": "Google Plus",
+      "imagefile" : "icon_google_plus.jpg"
+    },
+    {
+      "url" : "https://www.instagram.com/surfz113/",
+      "shortname": "Instagram",
+      "imagefile" : "icon_instagram.jpg"
+    },
+    {
+      "url" : "https://www.linkedin.com/in/marc-kruza-1765128/s",
+      "shortname": "Linked In",
+      "imagefile" : "icon_linked_in.png"
+    }
+  ]
+}

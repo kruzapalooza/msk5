@@ -1,0 +1,24 @@
+{
+  "front_links": [
+    {
+      "url" : "/",
+      "shortname": "Novel"
+    },
+    {
+      "url" : "/article",
+      "shortname": "Article"
+    },
+    {
+      "url" : "/blog",
+      "shortname": "Blog"
+    },
+    {
+      "url" : "/media",
+      "shortname": "Media"
+    },
+    {
+      "url" : "/about",
+      "shortname": "About"
+    }
+  ]
+}

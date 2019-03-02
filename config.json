@@ -1,0 +1,17 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "msk6",
+        "app_desc": "Marc S. Kruza Website",
+        "node_port": 3000,
+        "json_indentation": 4
+    },
+
+    "production": {
+        "config_id": "production",
+        "app_name": "msk6",
+        "app_desc": "Marc S. Kruza Website",
+        "node_port": 8080,
+        "json_indentation": 4   
+    }
+}

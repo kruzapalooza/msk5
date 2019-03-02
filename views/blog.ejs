@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>
+  </head>
+  <body id="<%= pageID %>">
+
+    <header class="main-header"> Welcome to my blog </header>
+
+    <div class="row-flex">
+
+      <aside class="primary-sidebar">
+        <% include partials/content/sidebar.ejs %>
+      </aside>
+      
+      <main class="content">
+        <% include partials/content/blogcontent.ejs %>
+      </main>
+      
+      <aside class="secondary-sidebar">Sidebar (right)
+        <% include partials/content/sidebarright.ejs %>
+      </aside>
+    </div>
+
+    <footer class="main-footer">Marc S. Kruza</footer>
+
+  </body>
+</html>

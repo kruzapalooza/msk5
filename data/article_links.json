@@ -1,0 +1,16 @@
+{
+  "article_links": [
+    {
+      "url" : "https://www.amazon.com/Chicken-Soup-Soul-Preteens-Inspiration/dp/1935096737",
+      "shortname": "Buy Paperback"
+    },
+    {
+      "url" : "https://www.amazon.com/Chicken-Soup-Soul-Preteens-Inspiration-ebook/dp/B004G8QTLQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
+      "shortname": "Buy Kindle"
+    },
+    {
+      "url" : "https://www.amazon.com/Chicken-Soup-Soul-Preteens-Inspiration-ebook/dp/B004G8QTLQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=#customerReviews",
+      "shortname": "Review"
+    }
+  ]
+}
