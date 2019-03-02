@@ -39,7 +39,7 @@ body {
   color: var(--my-blue);
   flex: 0 0 auto;
   font-size: 6vh;
-  font-family: Arial;
+  font-family: 'Permanent Marker', cursive;
   height: auto;
 }
 
@@ -89,7 +89,7 @@ body {
     flex: 0 0 auto;
     font-size: 8vh;
     font: sans-serif;
-    font-family: Helvetica;
+    font-family: 'Permanent Marker', cursive;
     height: auto;
   }
 
