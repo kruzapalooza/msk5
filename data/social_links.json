@@ -11,11 +11,6 @@
       "imagefile" : "icon_facebook.png"
     },
     {
-      "url" : "https://plus.google.com/b/107140843890666097689/107140843890666097689",
-      "shortname": "Google Plus",
-      "imagefile" : "icon_google_plus.jpg"
-    },
-    {
       "url" : "https://www.instagram.com/surfz113/",
       "shortname": "Instagram",
       "imagefile" : "icon_instagram.jpg"
