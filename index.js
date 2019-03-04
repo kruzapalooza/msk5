@@ -17,7 +17,7 @@ app.set('appMedia',  dataMedia) ;
 
 
 app.set('view engine', 'ejs');
-app.set('views', 'app/views');
+app.set('views', 'views');
 app.locals.siteTitle = 'Marc S. Kruza';
 
 app.use(express.static('app/public'));
