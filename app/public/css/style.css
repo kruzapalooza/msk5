@@ -30,7 +30,7 @@ body {
 .secondary-sidebar {
   background: var(--my-black);
   position: relative;
-  width: 10%;
+  min-width: 10%;
   right: 0;
 }
 
