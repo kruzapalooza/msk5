@@ -1,23 +1,19 @@
 /* SMALLER VIEWPORTS */
-.social-link {
-	max-height: 3.2rem; 
+.social-link { 
 	position: relative;
   justify-content: center;
 }
 
 .social-link a {
-	max-height: 3rem;
-	max-width: 3rem;
 	position: relative;
 }
 
 .social-link img {
 	position: relative;
 	padding: 0.5vh;
-	display: inline-block;
 	border-radius: 50%;
 	opacity: 0.7;
-	max-width: 4vh;
+	max-width: 5vh;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
@@ -31,14 +27,11 @@
 /* LARGER VIEWPORTS */
 @media (min-width: 680px) {
   .social-link {
-  	max-width: 3.2rem;
-  	max-height: 3.2rem;
   	justify-content: center;
   }
 
   .social-link a {
-  	display: inline-block;
-  	max-width: 100%;
+  	position: relative;
   }
 
   .social-link img {

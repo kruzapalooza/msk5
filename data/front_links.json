@@ -2,6 +2,10 @@
   "front_links": [
     {
       "url" : "/",
+      "shortname": "Home"
+    },  
+    {
+      "url" : "/novel",
       "shortname": "Novel"
     },
     {
