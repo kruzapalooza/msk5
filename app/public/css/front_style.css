@@ -8,7 +8,7 @@
 
 .front-link {
   background: transparent;
-  border-radius: 1vh;
+  border-radius: 0.25vh;
 	color: var(--my-sepia);
 	display: inline;
 	font: sans-serif;
@@ -17,7 +17,8 @@
 	font-size: 100%;
 	text-decoration: none;
 	width: 100%;
-  margin: 1%;
+  margin: 2%;
+  padding-top: 1%;
 	min-height: 4vh;
 	position: relative;
 	-webkit-transition: all 0.2s ease;
@@ -28,7 +29,6 @@
 
 .front-link:hover {
 	background-color: var(--my-white);
-    border-radius: 1vh;
 	color: var(--my-black);
 }
 
@@ -37,7 +37,7 @@
 @media (min-width: 680px) { 
   .front-link {
     background: transparent;
-    border-radius: 1vh;
+    border-radius: 0.25vh;
     color: var(--my-sepia);
     display: inline-block;
     font: sans-serif;
@@ -46,7 +46,8 @@
     font-size: 100%;
     text-decoration: none;
     width: 100%;
-	min-height: 4vh;
+    padding-top: 5%;
+	  min-height: 4vh;
     position: relative;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -56,7 +57,6 @@
 
   .front-link:hover {
     background-color: var(--my-white);
-      border-radius: 1vh;
     color: var(--my-black);
   }
 
