@@ -27,7 +27,7 @@ router.get('/novel', function(req, res) {
 		pageTitle: 'Novel',
 		pageID:    'novel', // id current page for js
 		frontUrls: frontUrls ,
-		mainUrls: mainUrls ,
+		novelUrls: novelUrls ,
 		socialUrls : socialUrls
 	});
 
