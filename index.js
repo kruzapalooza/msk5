@@ -16,16 +16,21 @@ app.set('appSocial',  dataSocial) ;
 app.set('appMedia',  dataMedia) ;
 app.set('appNovel',  dataNovel) ;
 
+// set views folder location and title
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 app.locals.siteTitle = 'Marc S. Kruza';
 
+// set public folder location
 app.use(express.static('app/public'));
+
+// set routes
 app.use(require('./routes/index'));
 app.use(require('./routes/article'));
 app.use(require('./routes/media'));
 app.use(require('./routes/about'));
 app.use(require('./routes/novel'));
+app.use(require('./routes/events'));
 
 var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));

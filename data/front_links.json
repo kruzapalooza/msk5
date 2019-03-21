@@ -23,6 +23,10 @@
     {
       "url" : "/about",
       "shortname": "About"
+    },
+    {
+      "url" : "/events",
+      "shortname": "Events"
     }
   ]
 }

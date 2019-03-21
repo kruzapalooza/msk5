@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/', function(req, res) {
+router.get('/events', function(req, res) {
 	var main		= req.app.get('appMain');
 	var data 		= req.app.get('appData');
 	var article 	= req.app.get('appArticle');
@@ -23,9 +23,9 @@ router.get('/', function(req, res) {
 		socialUrls = socialUrls.concat(item) ;
 	});
 
-	res.render('index', {
-		pageTitle: 'Home',
-		pageID:    'home', // id current page for js
+	res.render('events', {
+		pageTitle: 'Events',
+		pageID:    'events', // id current page for js
 		frontUrls: frontUrls ,
 		mainUrls: mainUrls ,
 		socialUrls : socialUrls
