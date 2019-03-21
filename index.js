@@ -32,12 +32,15 @@ app.use(require('./routes/about'));
 app.use(require('./routes/novel'));
 app.use(require('./routes/events'));
 
+// console log the port number
 var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));
 });
 
+// reload automatically on file edits
 reload(server, app);
 
+// load environment configuration depending on env var setting
 var config = require('./config.json');
 var defaultConfig = config.development;
 var environment = process.env.NODE_ENV || 'development';
