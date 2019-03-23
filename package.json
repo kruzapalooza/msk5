@@ -1,16 +1,17 @@
 {
-  "name": "expressjs",
+  "name": "@marckruza/marckruza-com",
   "version": "1.0.0",
   "description": "Marc S. Kruza website: book, blog, etc.",
-  "main": "app/app.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "author": "Marc S. Kruza",
-  "license": "Kruzapalooza, LLC",
+  "license": "UNLICENSED",
   "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.14.0",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "google-fonts": "^1.0.0",
     "jquery": "^3.2.1",
     "nodemon": "^1.11.0",

@@ -1,0 +1,5 @@
+.env
+bin/node
+logs/
+*.service
+node_modules/
