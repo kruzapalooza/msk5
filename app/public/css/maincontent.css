@@ -23,7 +23,7 @@
 
 .blurb-links p {
   margin: 1vh;
-  text-align: justify;
+  text-align: left;
 }
 
 .blurb-links:before {
@@ -88,7 +88,7 @@
 
   .blurb-links p {
     margin: 1vh;
-    text-align: justify;
+    text-align: left;
   }
 
   .blurb-links:before {
