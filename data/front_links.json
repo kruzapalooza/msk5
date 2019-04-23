@@ -9,6 +9,10 @@
       "shortname": "Novel"
     },
     {
+      "url" : "/music",
+      "shortname": "Music"
+    },
+    {
       "url" : "/article",
       "shortname": "Article"
     },
