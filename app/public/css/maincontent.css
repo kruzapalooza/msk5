@@ -1,13 +1,14 @@
-
-.pic-blurb-links {
-  max-height: 2vh;
-  max-width: 100% ;
-}
+/* SMALLER VIEWPORTS */
 
 .pic {
   margin: 2%;
   max-width: 100%;
   position: relative;
+}
+
+.pic-blurb-links {
+  max-height: 2vh;
+  max-width: 100% ;
 }
 
 .pic img {
@@ -61,3 +62,69 @@
   color: var(--my-black);
 }
 
+/* LARGER VIEWPORTS: Laptops, Desktops*/
+@media (min-width: 680px) {
+
+  .pic {
+    margin: 2%;
+    max-width: 50%;
+    position: relative;
+  }
+
+  .pic-blurb-links {
+    max-height: 2vh;
+    max-width: 100% ;
+  }
+
+  .pic img {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .blurb-links {
+    width: 50%;
+    position: relative;
+  }
+
+  .blurb-links p {
+    margin: 1vh;
+    text-align: justify;
+  }
+
+  .blurb-links:before {
+    content:" ";
+    display: inline-block;
+    vertical-align:bottom;
+    height: 1px;
+    width: 90%;
+    background: var(--my-white);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1,0,0,1)), to(transparent));
+    margin-bottom: 2vh;
+  }
+
+  .blurb-link {
+    background: transparent;
+    border-radius: 1vh;
+    color: var(--my-yellow);
+    display: inline-block;
+    font: sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-style: none;
+    font-size: 100%;
+    text-decoration: none;
+    width: 100%;
+    min-height: 6vh;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+  }
+
+  .blurb-link:hover {
+    background-color: var(--my-white);
+      border-radius: 1vh;
+    color: var(--my-black);
+  }
+
+}
