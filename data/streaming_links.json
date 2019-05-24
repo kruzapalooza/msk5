@@ -1,18 +1,15 @@
 {
-  "music_links": [
+  "stream_links": [
     {
       "url" : "https://soundcloud.com/user-603830723/sets/southern-perspective",
       "shortname": "Soundcloud",
       "imagefile" : "soundcloud-icon.jpg"
     },
     {
-      "url" : "https://open.spotify.com/track/5aj2MUMsRpvDtBZ5HN4SUD?si=yEERxnAlSCWXvHXeR48GXw",
+      "url" : "https://soundcloud.com/user-603830723/sets/southern-perspective",
       "shortname": "Soundcloud",
-      "imagefile" : "spotify-icon.jpg"
+      "imagefile" : "soundcloud-icon.jpg"
     }
 
-    
   ]
 }
-
-

@@ -1,12 +1,17 @@
 <div class="row-flex">
 
 	<div class="blurb-links">
-
+		<div>
 		<% for (i=0 ; i<musicUrls.length ; i++) { %>
-		  <a class="blurb-link" href="<%= musicUrls[i].url %>">
-		    <%= musicUrls[i].shortname %>
+		  
+		  <a class="social-link" href="<%= musicUrls[i].url %>">
+		  	<!-- %= musicUrls[i].shortname % -->
+		  	<img src="/images/streaming/<%= musicUrls[i].imagefile %>" />
 		  </a>
+	
 		<% } %>
+	  	</div>
+	  	
 		<p class="paragraph-text"> 
 			Welcome to my music page! Click the above links to listen on streaming services above.  
 		</p>
